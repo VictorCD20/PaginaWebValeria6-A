@@ -1,0 +1,198 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías y Soluciones Digitales en Servicios Públicos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0f7fa 0%, #e8f5e9 100%);
+            color: #222;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding: 24px 40px 16px 40px;
+            background: linear-gradient(90deg, #2196f3 0%, #43e97b 100%);
+            box-shadow: 0 2px 8px rgba(33,150,243,0.08);
+        }
+        header img {
+            height: 60px;
+            margin-right: 24px;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #fff;
+            margin: 0;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 320px;
+            background: linear-gradient(120deg, #43e97b 0%, #38f9d7 100%), url('https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1200&q=80');
+            background-blend-mode: multiply;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+        .hero h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            text-shadow: 0 1px 4px rgba(0,0,0,0.10);
+        }
+        .videos-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px;
+            padding: 48px 0 32px 0;
+            background: linear-gradient(90deg, #e3f2fd 0%, #e8f5e9 100%);
+        }
+        .video-container {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(33,150,243,0.08);
+            padding: 16px;
+            max-width: 420px;
+            width: 100%;
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 240px;
+            border: none;
+            border-radius: 12px;
+        }
+        .galeria {
+            padding: 48px 0 32px 0;
+            background: linear-gradient(120deg, #b2dfdb 0%, #e3f2fd 100%);
+        }
+        .galeria h3 {
+            text-align: center;
+            font-size: 1.7rem;
+            color: #1976d2;
+            margin-bottom: 32px;
+        }
+        .imagenes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px;
+        }
+        .img-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 180px;
+        }
+        .img-item img {
+            width: 160px;
+            height: 110px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(33,150,243,0.10);
+            margin-bottom: 10px;
+        }
+        .img-item p {
+            font-size: 1rem;
+            color: #388e3c;
+            text-align: center;
+        }
+        footer {
+            background: linear-gradient(90deg, #2196f3 0%, #43e97b 100%);
+            color: #fff;
+            text-align: center;
+            padding: 24px 0 16px 0;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+        .referencias {
+            background: #e3f2fd;
+            padding: 32px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #333;
+        }
+        .referencias h4 {
+            text-align: center;
+            font-size: 1.3rem;
+            color: #1a237e;
+        }
+        @media (max-width: 900px) {
+            .videos-section, .imagenes {
+                flex-direction: column;
+                align-items: center;
+            }
+            .video-container, .img-item {
+                max-width: 95vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Logo.jpg" alt="Logo del sitio">
+        <h1>Uso de tecnologías y soluciones digitales innovadoras para la atención o creación de servicios públicos ofrecidos a ciudadanos</h1>
+    </header>
+    <section class="hero">
+        <h2>Tecnologías aplicadas a la educación</h2>
+        <p>Descubre cómo las herramientas digitales y las soluciones innovadoras están transformando la educación y los servicios públicos, facilitando el acceso, la calidad y la personalización del aprendizaje para todos los ciudadanos.</p>
+    </section>
+    <section class="videos-section">
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/KYjwVEGCnjM" title="Video 1: Innovación educativa"></iframe>
+        </div>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/OBA1EJWhpxA" title="Video 2: Soluciones digitales"></iframe>
+        </div>
+    </section>
+    <section class="galeria">
+        <h3>Ejemplos de tecnologías en la educación</h3>
+        <div class="imagenes">
+            <div class="img-item">
+                <img src="ejemplo1.jpg" alt="Ejemplo 1">
+                <p>Plataformas de aprendizaje en línea</p>
+            </div>
+            <div class="img-item">
+                <img src="ejemplo2.jpg" alt="Ejemplo 2">
+                <p>Realidad aumentada en el aula</p>
+            </div>
+            <div class="img-item">
+                <img src="ejemplo3.jpg" alt="Ejemplo 3">
+                <p>Robótica educativa</p>
+            </div>
+            <div class="img-item">
+                <img src="ejemplo4.jpg" alt="Ejemplo 4">
+                <p>Aplicaciones móviles para el aprendizaje</p>
+            </div>
+            <div class="img-item">
+                <img src="ejemplo5.jpg" alt="Ejemplo 5">
+                <p>Inteligencia artificial en la educación</p>
+            </div>
+        </div>
+    </section>
+    <section class="referencias">
+        <h4>Referencias APA</h4>
+        <p>UNESCO. (2022). <em>La transformación digital en la educación: desafíos y oportunidades</em>. Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. https://unesdoc.unesco.org/ark:/48223/pf0000382061</p>
+        <p>García-Peñalvo, F. J., Corell, A., Abella-García, V., & Grande, M. (2021). Online Assessment in Higher Education in the Time of COVID-19. <em>Education in the Knowledge Society (EKS)</em>, 22, 1–12. https://doi.org/10.14201/eks.23013</p>
+        <p>OECD. (2020). <em>Education responses to COVID-19: Embracing digital learning and online collaboration</em>. Organisation for Economic Co-operation and Development. https://www.oecd.org/education/embracing-digital-learning-and-online-collaboration.htm</p>
+    </section>
+    <footer>
+        <div>Alumno: Valeria Berenice Koyoc Suárez | Grupo: 6°A | Escuela: Insituto Privado de la Peninsula</div>
+    </footer>
+</body>
+</html>
